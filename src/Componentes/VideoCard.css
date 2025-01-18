@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.video-card {
+    background-color: #2a2a2a; /* Un fondo oscuro para simular el estilo de tu imagen */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .video-title {
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  
+  .video-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .video-card:hover .video-actions {
+    opacity: 1;
+  }
+  
+  .action-button {
+    background-color: #00C4CC;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .action-button:hover {
+    background-color: #009DAF;
+  }
+
+  @media (max-width: 768px) {
+    .video-card {
+      margin-bottom: 20px; /* Espacio entre tarjetas */
+    }
+  }

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* Alinear verticalmente en el centro */
+    padding: 20px; /* Espacio alrededor del contenido del banner */
+    margin-left: 10rem;
+  }
+  
+  .titulo {
+    margin-right: 20px; /* Espacio entre el título y la imagen */
+    /* Ajusta el tamaño del texto según necesites */
+    font-size: 2em;
+  }
+  
+  .banner img {
+    max-width: 100%; /* Asegura que la imagen no se desborde de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .banner {
+      flex-direction: column; /* Coloca los elementos uno encima del otro */
+      margin-left: 4px;
+    }
+  
+    .banner .titulo {
+      margin-right: 0; /* Elimina el margen derecho */
+      margin-bottom: 10px; /* Añade margen inferior */
+      text-align: center; /* Centra el texto */
+    }
+  
+    .banner img {
+      width: 100%; /* Asegura que la imagen llene el ancho disponible */
+    }
+  }
+
+  @media (max-width: 1180px) {
+    .banner {
+      flex-direction: column; /* Coloca los elementos uno encima del otro */
+      margin-left: 4px;
+    }
+  }

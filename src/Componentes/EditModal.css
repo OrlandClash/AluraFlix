@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  color: white;
+  position: relative;
+  /* Añadimos sombra para darle más profundidad */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  color: #00C4CC;
+  text-align: center; /* Centra el título */
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input, 
+form select, 
+form textarea {
+  width: 100%; /* Ancho completo para mejor alineación */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #00C4CC;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+/* Alineamos los elementos dentro del modal */
+form > div {
+  margin-bottom: 15px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-actions button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.modal-actions button[type="button"] {
+  background-color: #0398fc;
+  color: white;
+}
+
+.modal-actions button[type="button"]:hover {
+  background-color: #0279d3;
+}
+
+.modal-actions button[type="submit"] {
+  background-color: #00C4CC;
+  color: white;
+}
+
+.modal-actions button[type="submit"]:hover {
+  background-color: #00a6a6;
+}
+
+/* Botón limpieza con un estilo diferente */
+.modal-actions button[type="button"]:last-child {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.modal-actions button[type="button"]:last-child:hover {
+  background-color: #ff4757;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    max-width: none; /* Permite que el modal ocupe casi toda la pantalla */
+    margin-left: -16px;
+  }
+
+  .modal-overlay {
+    margin-left: -13px;
+    width: 91%;
+  }
+
+  form input, form select, form textarea {
+    width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
+    margin-left: -4px;
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "id": "c6b8",
+      "title": "Gestión de la Innovación ",
+      "category": "innovation",
+      "thumbnail": "https://www.viima.com/hs-fs/hubfs/Blog_Images/Used/Spanish%20posts/Gesti%C3%B3n%20de%20la%20innovaci%C3%B3n%20-%20Claves%20al%20%C3%A9xito/Beneficios%20de%20la%20gesti%C3%B3n%20de%20la%20innovaci%C3%B3n.png?width=1322&name=Beneficios%20de%20la%20gesti%C3%B3n%20de%20la%20innovaci%C3%B3n.png",
+      "videoUrl": "https://www.youtube.com/live/APEabSoQXmQ?si=xbobeXCAfBy-92A8",
+      "description": "dfgddfg"
+    },
+    {
+      "id": "a69f",
+      "title": "¿Que es Frontend?",
+      "category": "frontend",
+      "thumbnail": "https://media.licdn.com/dms/image/v2/D4D12AQE9KDPe-KE_cQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1695744816253?e=1742428800&v=beta&t=6e8yfI1fCbeon8SH4-c4J-Bqoy2vusa3RLIep7lBneo",
+      "videoUrl": "https://www.youtube.com/live/APEabSoQXmQ?si=xbobeXCAfBy-92A8",
+      "description": "dgsdfgdfg"
+    },
+    {
+      "id": "edd0",
+      "title": "Guía desarrollo Backend",
+      "category": "backend",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*S0rWo-lYM3IWsjbH.png",
+      "videoUrl": "https://app.aluracursos.com/course/aprender-a-aprender-tecnicas-autodesarrollo/task/83321",
+      "description": "drey "
+    },
+    {
+      "id": "3c55",
+      "title": "¿Como funciona la programación?",
+      "category": "frontend",
+      "thumbnail": "https://5115875.fs1.hubspotusercontent-na1.net/hub/5115875/hubfs/Backend-y-Frontend-%C2%BFQu%C3%A9-es-c%C3%B3mo-funcionan-en-la-programaci%C3%B3n.jpg?width=950&name=Backend-y-Frontend-%C2%BFQu%C3%A9-es-c%C3%B3mo-funcionan-en-la-programaci%C3%B3n.jpg",
+      "videoUrl": "https://www.youtube.com/live/HINWXDPFJcI?si=bx0YlES-dxPcv-0H",
+      "description": "tfhrth"
+    },
+    {
+      "id": "fbdb",
+      "title": "Convertirse en un desarrollador",
+      "category": "frontend",
+      "thumbnail": "https://kinsta.com/es/wp-content/uploads/sites/8/2021/12/front-end-developer-1024x512.png",
+      "videoUrl": "https://www.youtube.com/live/APEabSoQXmQ?si=0iZzgPOwbkC-fMMF",
+      "description": "drthdvf"
+    },
+    {
+      "id": "cb57",
+      "title": "¿Que es backend?",
+      "category": "backend",
+      "thumbnail": "https://www.dongee.com/tutoriales/content/images/2023/01/image-17.png",
+      "videoUrl": "https://www.youtube.com/live/APEabSoQXmQ?si=0iZzgPOwbkC-fMMF",
+      "description": "dfdhdh"
+    },
+    {
+      "id": "129e",
+      "title": "¿Por qué es importante el Backend?",
+      "category": "backend",
+      "thumbnail": "https://www.hostingplus.com.co/wp-content/uploads/2025/01/backend-1.jpg",
+      "videoUrl": "https://www.youtube.com/live/HINWXDPFJcI?si=bx0YlES-dxPcv-0H",
+      "description": "sdsdfgg"
+    },
+    {
+      "id": "e7fd",
+      "title": "¿Qué es la Innovación y Gestión?",
+      "category": "innovation",
+      "thumbnail": "https://www.esic.edu/sites/default/files/2023-10/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2837%29.jpg",
+      "videoUrl": "https://www.youtube.com/live/HINWXDPFJcI?si=bx0YlES-dxPcv-0H",
+      "description": "sdgdfg"
+    },
+    {
+      "id": "b4e3",
+      "title": "Dos enfoques claves",
+      "category": "innovation",
+      "thumbnail": "https://media.licdn.com/dms/image/v2/C5612AQH-FNaswp_b9Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1620838729521?e=1742428800&v=beta&t=9glS6gf-AQRBi7IJx08rynPMtKRzlGIRcJwEMCgWJX4",
+      "videoUrl": "https://www.youtube.com/live/HINWXDPFJcI?si=bx0YlES-dxPcv-0H",
+      "description": "sdgdgdg"
+    }
+  ]
+}

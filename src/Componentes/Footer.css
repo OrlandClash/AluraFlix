@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex; /* Cambiado a flex para permitir alineación en línea */
+  justify-content: center; /* Centra los elementos en el eje principal (horizontal) */
+  align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.footer-content h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-right: 10px; /* Espacio entre AluraFlix y By Orland Clash */
+}
+
+.footer-content .highlight {
+  color: #00C4CC; /* Este color es para mantener la coherencia con el Header */
+}
+
+.parrafo {
+  margin: 0; /* Elimina cualquier margen adicional */
+  font-size: 16px; /* Ajusta según el diseño */
+}
